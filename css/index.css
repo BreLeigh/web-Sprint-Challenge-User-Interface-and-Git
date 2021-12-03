@@ -202,3 +202,56 @@ footer nav a {
 }
 
 /* About Page Styles */
+.about{
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin-right: 23%;
+    margin-left:23%;
+    margin-top: 2%;
+}
+
+
+#middle {
+    display: flex;
+    margin: 0 2% 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-left:20%;
+    
+
+}
+
+.strategy,.how,.places,.collaboration{
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+
+}
+
+button{
+    border-radius: 70px;
+    border-color: black;
+    border-radius:10px;
+    color:solid black;
+    background-color: white;
+    padding: 3% 5%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+h3{
+    margin-top: 2%;
+}
+
+.together p{
+    margin-bottom: 5%;
+    
+}
+.together{
+    margin-right: 23%;
+    margin-left: 23%;
+}
+.container img{
+    margin-bottom: 5%;
+}
