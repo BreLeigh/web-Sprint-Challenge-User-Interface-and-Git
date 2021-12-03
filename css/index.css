@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,39 +66,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-.top{
-    margin: 20px 2.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.top img{
+    margin-left:23%;
 }
 nav{
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
     text-decoration: none;
-    margin-left: 20;
+    margin-left: 1%;
 }
-a{
+
+header a:link{
+    color:black;
     text-decoration: none;
-    color: #4f4f4f;
-    transition: 2s;
 }
-a:hover{
-    color: blue;
-}
-a:visited{
-    color:#4f4f4f;
+
+header a:visited{
+    color:black;
+    text-decoration: none;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
@@ -129,7 +126,7 @@ a:visited{
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -139,6 +136,37 @@ a:visited{
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    background-color:teal;
+} 
+.box2{
+    background-color:gold;
+} 
+.box3{
+    background-color:cadetblue;
+} 
+.box4{
+    background-color:coral;
+} 
+.box5{
+    background-color:crimson;
+} 
+.box6{
+    background-color:forestgreen;
+} 
+.box7{
+    background-color:darkorchid;
+} 
+.box8{
+    background-color:hotpink;
+} 
+.box9{
+    background-color:indigo;
+} 
+.box10{
+    background-color:dodgerblue;
+}    
 
 .bottom-content {
     display: flex;
