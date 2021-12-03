@@ -65,6 +65,34 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.top{
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20;
+}
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+    transition: 2s;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color:#4f4f4f;
+}
 
 .container {
     width: 800px;
